@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/01/2014 17:04:41
+EESchema Schematic File Version 2  date 03/01/2014 12:24:21
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:elc-ludens.cl-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ELC"
-Date "2 jan 2014"
+Date "3 jan 2014"
 Rev "1"
 Comp ""
 Comment1 ""
@@ -1142,4 +1143,42 @@ Connection ~ 3250 1500
 Wire Wire Line
 	4100 2400 4100 2450
 Connection ~ 4100 2450
+$Comp
+L CONN_1 P5
+U 1 1 52C6AE40
+P 10500 3800
+F 0 "P5" H 10580 3800 40  0000 L CNN
+F 1 "CONN_1" H 10500 3855 30  0001 C CNN
+F 2 "" H 10500 3800 60  0000 C CNN
+F 3 "" H 10500 3800 60  0000 C CNN
+	1    10500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P6
+U 1 1 52C6AE4F
+P 10500 3900
+F 0 "P6" H 10580 3900 40  0000 L CNN
+F 1 "CONN_1" H 10500 3955 30  0001 C CNN
+F 2 "" H 10500 3900 60  0000 C CNN
+F 3 "" H 10500 3900 60  0000 C CNN
+	1    10500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P7
+U 1 1 52C6AE5E
+P 10500 4000
+F 0 "P7" H 10580 4000 40  0000 L CNN
+F 1 "CONN_1" H 10500 4055 30  0001 C CNN
+F 2 "" H 10500 4000 60  0000 C CNN
+F 3 "" H 10500 4000 60  0000 C CNN
+	1    10500 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 10250 4150 0    60   ~ 0
+MECHANICAL\nFIXINGS
+NoConn ~ 10350 4000
+NoConn ~ 10350 3900
+NoConn ~ 10350 3800
 $EndSCHEMATC
