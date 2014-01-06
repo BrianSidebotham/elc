@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/01/2014 12:24:21
+EESchema Schematic File Version 2  date 06/01/2014 17:26:26
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ELC"
-Date "3 jan 2014"
+Date "6 jan 2014"
 Rev "1"
 Comp ""
 Comment1 ""
@@ -264,7 +264,7 @@ F 4 "9411755" H 2450 3150 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 2850 3450 2850
+	2350 2850 3900 2850
 Wire Wire Line
 	2450 2850 2450 2950
 Wire Wire Line
@@ -304,7 +304,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 3050 1800 3450
 Wire Wire Line
-	1800 3450 3450 3450
+	1800 3450 3900 3450
 Wire Wire Line
 	2450 3450 2450 3350
 Wire Wire Line
@@ -502,9 +502,9 @@ Wire Wire Line
 Connection ~ 3000 4150
 Connection ~ 3000 2850
 Connection ~ 3150 3450
-Text Label 3450 2850 2    60   ~ 0
+Text Label 3900 2850 2    60   ~ 0
 COMP1
-Text Label 3450 3450 2    60   ~ 0
+Text Label 3900 3450 2    60   ~ 0
 COMP2
 Wire Wire Line
 	9100 2100 10000 2100
@@ -1181,4 +1181,45 @@ MECHANICAL\nFIXINGS
 NoConn ~ 10350 4000
 NoConn ~ 10350 3900
 NoConn ~ 10350 3800
+$Comp
+L R R20
+U 1 1 52CAE96A
+P 3300 3150
+F 0 "R20" V 3380 3150 40  0000 C CNN
+F 1 "2k2" V 3307 3151 40  0000 C CNN
+F 2 "~" V 3230 3150 30  0000 C CNN
+F 3 "~" H 3300 3150 30  0000 C CNN
+	1    3300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR014
+U 1 1 52CAE979
+P 6200 1250
+F 0 "#PWR014" H 6200 1350 30  0001 C CNN
+F 1 "VDD" H 6200 1360 30  0000 C CNN
+F 2 "" H 6200 1250 60  0000 C CNN
+F 3 "" H 6200 1250 60  0000 C CNN
+	1    6200 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1250 6200 1500
+Connection ~ 6200 1500
+$Comp
+L VDD #PWR015
+U 1 1 52CAEAD8
+P 3300 2750
+F 0 "#PWR015" H 3300 2850 30  0001 C CNN
+F 1 "VDD" H 3300 2860 30  0000 C CNN
+F 2 "" H 3300 2750 60  0000 C CNN
+F 3 "" H 3300 2750 60  0000 C CNN
+	1    3300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2900 3300 2750
+Wire Wire Line
+	3300 3400 3300 3450
+Connection ~ 3300 3450
 $EndSCHEMATC
