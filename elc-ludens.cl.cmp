@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-16 BZR 4016)-stable date = 06/01/2014 17:26:23
+Cmp-Mod V01 Created by CvPcb (2013-05-16 BZR 4016)-stable date = 17/01/2014 12:20:06
 
 BeginCmp
 TimeStamp = /52C551EB;
@@ -151,56 +151,56 @@ BeginCmp
 TimeStamp = /52C5648F;
 Reference = Q1;
 ValeurCmp = BC337;
-IdModule  = TO92PN;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C56701;
 Reference = Q2;
 ValeurCmp = BC337;
-IdModule  = TO92PN;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C56721;
 Reference = Q3;
 ValeurCmp = BC337;
-IdModule  = TO92PN;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C56741;
 Reference = Q4;
 ValeurCmp = BC337;
-IdModule  = TO92PN;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C56761;
 Reference = Q5;
 ValeurCmp = BC337;
-IdModule  = TO92PN;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C56781;
 Reference = Q6;
 ValeurCmp = BC337;
-IdModule  = TO92PN;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C567A1;
 Reference = Q7;
 ValeurCmp = BC337;
-IdModule  = TO92PN;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C567C1;
 Reference = Q8;
 ValeurCmp = BC337;
-IdModule  = TO92PN;
+IdModule  = TO92-EBC;
 EndCmp
 
 BeginCmp
