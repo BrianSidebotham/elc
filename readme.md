@@ -7,7 +7,7 @@ Electronic Load Controller Design is available [here](http://ludens.cl/Electron/
 This repository is a direct implementation of the ludens.cl ELC circuit.
 
 The Schematic and Printed Circuit Board have been produced in
-[KiCad](http://kicad-pcb.org). The Printed circuit board has been routed
+[KiCad](http://kicad.org). The Printed circuit board has been routed
 single-layer so it may be possible to etch your own easily enough. Otherwise it
 can be made very cheaply. There's plenty of improvements that can be made to
 the design, and there's plenty of optimisations for the PCB layout too if you
